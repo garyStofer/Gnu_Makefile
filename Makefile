@@ -79,4 +79,3 @@ clean:
 # example of multiple targets depending on the same pre-req
 #$(OBJ_dir)main.o $(OBJ_dir)/sub.o : defs.h	# this indicates that def.h is a prerequisit for both .o files 
 
-)
