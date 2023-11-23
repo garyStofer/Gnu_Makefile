@@ -52,7 +52,7 @@ clean:
 	@rm -f $(BUILD_Target)		# just for good measure remove the exe as well 
 
 # see automatic generation via -MMD -MP and include $(DEPS) below
--include $(DEPS
+-include $(DEPS)
 
 
 # some built in default variables from make -- as displayed by make -p
